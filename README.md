@@ -1,31 +1,27 @@
-# 🤖 AI Bitcoin Automated Trading Bot  
+# AI Bitcoin Automated Trading Bot  
 An intelligent cryptocurrency trading bot powered by OpenAI's GPT models.  
 It uses multi-timeframe analysis, news sentiment, and the Kelly Criterion (via a detailed system prompt)  
 to execute trades on **Binance Futures**.  
 
-> ⚠️ **WARNING:** Cryptocurrency trading involves substantial risk of loss.  
+> **WARNING:** Cryptocurrency trading involves substantial risk of loss.  
 > Never invest more than you can afford to lose.  
 > Past performance does not guarantee future results.
 
 ---
 
-## 📘 Table of Contents
+## Table of Contents
 - [Features](#features)
 - [How It Works](#how-it-works)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Dashboard](#dashboard)
 - [Trading Strategy](#trading-strategy)
 - [Risk Management](#risk-management)
 - [Troubleshooting](#troubleshooting)
-- [License](#license)
 - [Disclaimer](#disclaimer)
 
 ---
 
-## 🚀 Features
+## Features
 - **AI-Powered Decisions:** Uses an OpenAI GPT model for comprehensive market analysis.  
 - **Multi-Timeframe Analysis:** Fetches and analyzes 15m, 1h, and 4h chart data from Binance.  
 - **News Sentiment Analysis:** Integrates real-time Google News headlines (via SerpAPI).  
@@ -38,7 +34,7 @@ to execute trades on **Binance Futures**.
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 1. **Check Position:** The bot checks for any open Binance positions.  
 2. **Collect Data:**  
    - Multi-timeframe OHLCV data (15m, 1h, 4h)  
@@ -60,22 +56,18 @@ to execute trades on **Binance Futures**.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
-ai-bitcoin-trading-bot/
-│
-├── 📄 autotrade.py # Main bot script
-├── 📄 streamlit_app.py # Streamlit dashboard
-├── 📄 requirements.txt # Python dependencies
-├── 📄 .env # API keys
-├── 📄 bitcoin_trading.db # SQLite database (auto-created)
-└── 📄 README.md # This file
-
+<img width="516" height="225" alt="image" src="https://github.com/user-attachments/assets/9af61cb5-2ef3-4e58-ab3d-6c3bfa2eabe4" />
 
 ---
 
-## 📊 Dashboard
+## Dashboard
 The included **Streamlit dashboard (`streamlit_app.py`)** provides real-time monitoring.
+![dashboard 1](https://github.com/user-attachments/assets/b041f8fa-c1be-4943-8272-c172ab946246)
+![dashboard 2](https://github.com/user-attachments/assets/13f5cf5c-1d00-4d17-b58a-288ee2d465db)
+![dashboard 3](https://github.com/user-attachments/assets/77527c69-7874-4bce-a683-998488fedb34)
+
 
 ### Features:
 - **Real-time KPIs:** Total Return, Win Rate, Profit Factor, Sharpe Ratio  
@@ -87,7 +79,7 @@ The included **Streamlit dashboard (`streamlit_app.py`)** provides real-time mon
 
 ---
 
-## 🧠 Trading Strategy
+## Trading Strategy
 The strategy logic is defined in the `system_prompt` of `autotrade.py`.
 
 ### Analysis Components:
@@ -100,7 +92,7 @@ The strategy logic is defined in the `system_prompt` of `autotrade.py`.
 
 ---
 
-## 📈 Kelly Criterion Position Sizing
+## Kelly Criterion Position Sizing
 Formula: f* = (p × b - q) / b
 
 Where:  
@@ -112,7 +104,7 @@ Where:
 
 ---
 
-## 🛡️ Risk Management
+## Risk Management
 - **Conviction Threshold:** Skip trades if conviction < 55%  
 - **Position Size:** Controlled strictly by Half-Kelly formula  
 - **Leverage:** Dynamically chosen (1x–20x) based on volatility  
@@ -120,7 +112,7 @@ Where:
 
 ---
 
-## 🧩 Troubleshooting
+## Troubleshooting
 
 | Issue | Solution |
 |-------|-----------|
@@ -131,7 +123,7 @@ Where:
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 This software is for **educational and research purposes only**.  
 Use it entirely at your own risk.  
 The authors and contributors are **not responsible** for any financial losses or damages resulting from its use.
