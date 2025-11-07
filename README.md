@@ -30,7 +30,7 @@ to execute trades on **Binance Futures**.
 - **Persistent Logging:** Saves trades and AI reasoning to a local SQLite database.  
 - **Historical Learning:** AI learns from its own past trades (wins, losses, P/L).  
 - **Real-time Dashboard:** Built-in Streamlit dashboard visualizes performance and reasoning.  
-- **24/7 Cloud Operation:** Designed to run continuously on a cloud server (AWS EC2, etc.).
+- **24/7 Cloud Operation:** Designed to run continuously on a cloud server (AWS EC2).
 
 ---
 
