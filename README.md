@@ -1,7 +1,7 @@
 # AI Bitcoin Automated Trading Bot  
 An intelligent cryptocurrency trading bot powered by OpenAI's GPT models.  
 It uses multi-timeframe analysis, news sentiment, and the Kelly Criterion (via a detailed system prompt)  
-to execute trades on **Binance Futures**.  
+to execute trades on Binance Futures.  
 
 > **WARNING:** Cryptocurrency trading involves substantial risk of loss.  
 > Never invest more than you can afford to lose.  
@@ -24,7 +24,7 @@ to execute trades on **Binance Futures**.
 ## Features
 - **AI-Powered Decisions:** Uses an OpenAI GPT model for comprehensive market analysis.  
 - **Multi-Timeframe Analysis:** Fetches and analyzes 15m, 1h, and 4h chart data from Binance.  
-- **News Sentiment Analysis:** Integrates real-time Google News headlines (via SerpAPI).  
+- **News Sentiment Analysis:** Integrates real-time Google News headlines (SerpAPI).  
 - **Kelly Criterion Sizing:** AI calculates optimal, risk-adjusted position sizes.  
 - **Dynamic Risk Management:** Determines leverage, Stop-Loss (SL), and Take-Profit (TP) dynamically.  
 - **Persistent Logging:** Saves trades and AI reasoning to a local SQLite database.  
