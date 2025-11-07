@@ -30,7 +30,9 @@ to execute trades on Binance Futures.
 - **Persistent Logging:** Saves trades and AI reasoning to a local SQLite database.  
 - **Historical Learning:** AI learns from its own past trades (wins, losses, P/L).  
 - **Real-time Dashboard:** Built-in Streamlit dashboard visualizes performance and reasoning.  
-- **24/7 Cloud Operation:** Designed to run continuously on a cloud server (AWS EC2).
+- **Cloud Operation:** Designed to run on a cloud server (AWS EC2).
+    - Continuous Deployment: Implemented a Git-based CI/CD pipeline for automated testing and deployment to a live AWS EC2 instance.
+    - High Availability: Engineered the application for 24/7 "always-on" operation, hosted within the scalable AWS cloud environment.
 
 ---
 
