@@ -14,7 +14,7 @@ from datetime import datetime # Date and time processing
 # ===== Settings and Initialization =====
 api_key = os.getenv("BINANCE_API_KEY") # Binance API key
 secret = os.getenv("BINANCE_SECRET_KEY") # Binance secret key
-print(api_key, secret)
+
 exchange = ccxt.binance({
     'apiKey': api_key,
     'secret': secret,
