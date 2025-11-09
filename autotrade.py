@@ -780,7 +780,7 @@ Your response MUST be ONLY a valid JSON object with these 6 fields. Do NOT inclu
             
             # Call OpenAI API to request trading decision
             response = client.chat.completions.create(
-                model="gpt-5-mini", # Use gpt-5-mini model
+                model="gpt-5-nano",
                 messages=[
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": str(market_analysis)}
