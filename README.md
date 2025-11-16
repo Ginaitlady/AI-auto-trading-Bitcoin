@@ -66,9 +66,15 @@ to execute trades on Binance Futures.
 
 ## Dashboard
 The included **Streamlit dashboard (`streamlit_app.py`)** provides real-time monitoring.
-![dashboard 1](https://github.com/user-attachments/assets/b041f8fa-c1be-4943-8272-c172ab946246)
-![dashboard 2](https://github.com/user-attachments/assets/13f5cf5c-1d00-4d17-b58a-288ee2d465db)
-![dashboard 3](https://github.com/user-attachments/assets/77527c69-7874-4bce-a683-998488fedb34)
+<img width="1524" height="561" alt="image" src="https://github.com/user-attachments/assets/e34f90b8-ff61-4b7a-888a-f4e22f5e796e" />
+
+<img width="1543" height="539" alt="image" src="https://github.com/user-attachments/assets/3a8abc05-eb26-4db9-9112-ec0da0be5152" />
+
+<img width="1520" height="496" alt="image" src="https://github.com/user-attachments/assets/6dc72f4e-9e10-418e-a031-3b15bb312b62" />
+
+<img width="1514" height="546" alt="image" src="https://github.com/user-attachments/assets/8c6fe6a6-45d5-4057-b193-433f86169981" />
+
+<img width="1531" height="492" alt="image" src="https://github.com/user-attachments/assets/ed8d5566-034d-4795-8dae-2368cef94757" />
 
 
 ### Features:
